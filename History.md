@@ -509,8 +509,6 @@
 
   * deps: accepts@~1.2.12
     - deps: mime-types@~2.1.4
-  * deps: array-flatten@1.1.1
-    - perf: enable strict mode
   * deps: path-to-regexp@0.1.7
     - Fix regression with escaped round brackets and matching groups
   * deps: type-is@~1.6.6
@@ -539,14 +537,7 @@
     - Only `URIError`s are a 400
   * Fix using `*` before params in routes
   * Fix using capture groups before params in routes
-  * Simplify `res.cookie` to call `res.append`
-  * Use `array-flatten` module for flattening arrays
-  * deps: accepts@~1.2.9
-    - deps: mime-types@~2.1.1
-    - perf: avoid argument reassignment & argument slice
-    - perf: avoid negotiator recursive construction
-    - perf: enable strict mode
-    - perf: remove unnecessary bitwise operator
+  * Simplify `res.cookie` to call `res.append`r
   * deps: cookie@0.1.3
     - perf: deduce the scope of try-catch deopt
     - perf: remove argument reassignments
